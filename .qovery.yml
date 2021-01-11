@@ -1,0 +1,11 @@
+---
+application:
+  name: "docker-java8-helloworld"
+  project: "test2"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-docker-java8-helloworld"
+  routes:
+  - application_name: "docker-java8-helloworld"
+    paths:
+    - "/*"
